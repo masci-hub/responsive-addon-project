@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  cursor: pointer;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/img/background.jpg");
@@ -47,21 +51,76 @@ header a {
   margin: 32px 0;
 }
 
-@media (max-width: 1200px) {
+footer {
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 32, 68, 0.8)
+    ),
+    url("/img/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+footer h3 {
+  font-size: 20px;
+}
+
+footer p {
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 2;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer li {
+  list-style: none;
+  opacity: 0.7;
+  line-height: 2;
+}
+
+footer ul {
+  padding: 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 20px;
+  padding: 100px 180px;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 80px 0;
   }
+
   header h1 {
     font-size: 58px;
     margin: 18px 0;
   }
+
   header p {
     font-size: 24px;
     margin: 12px 0;
   }
+
   header a {
     font-size: 8px;
     margin: 16px;
     padding: 8px 16px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 50px 90px;
   }
 }
