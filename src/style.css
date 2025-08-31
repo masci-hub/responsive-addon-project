@@ -164,24 +164,6 @@ footer ul {
   grid-gap: 20px;
 }
 
-.gallery-section {
-  padding: 100px 180px;
-}
-
-.gallery-section h3 {
-  text-align: center;
-  opacity: 0.3;
-  letter-spacing: 5px;
-  font-family: "Montserrat", sans-serif;
-  color: #272044;
-  font-size: 16px;
-}
-
-.gallery-section h2 {
-  font-size: 48px;
-  text-align: center;
-}
-
 .card {
   background-color: white;
 }
@@ -229,6 +211,36 @@ footer ul {
 }
 
 .embed {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.gallery-section {
+  padding: 100px 180px;
+}
+
+.gallery-section h3 {
+  text-align: center;
+  opacity: 0.3;
+  letter-spacing: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: #272044;
+  font-size: 16px;
+}
+
+.gallery-section h2 {
+  font-size: 48px;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.gallery-grid img {
   width: 100%;
   height: 100%;
   margin: 0 auto;
@@ -295,5 +307,22 @@ footer ul {
 
   .card-header {
     grid-template-columns: 1fr;
+  }
+
+  .gallery-section {
+    padding: 50px 90px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-section h2 {
+    font-size: 28px;
+  }
+
+  .gallery-section h3 {
+    letter-spacing: 3px;
+    font-size: 14px;
   }
 }
