@@ -111,6 +111,13 @@ section {
   padding: 100px 180px;
 }
 
+main h3 {
+  opacity: 0.3;
+  letter-spacing: 5px;
+  font-family: var(--default-font-family);
+  font-size: 16px;
+}
+
 .why-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -126,10 +133,6 @@ section {
 .why-grid h3 {
   line-height: 1;
   margin: 0;
-  opacity: 0.3;
-  letter-spacing: 5px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
 }
 
 .why-grid h2 {
@@ -155,10 +158,6 @@ section {
 
 .places-section h3 {
   text-align: center;
-  opacity: 0.3;
-  letter-spacing: 5px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
 }
 
 .places-section h2 {
@@ -226,10 +225,6 @@ section {
 
 .gallery-section h3 {
   text-align: center;
-  opacity: 0.3;
-  letter-spacing: 5px;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
 }
 
 .gallery-section h2 {
