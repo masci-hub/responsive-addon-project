@@ -77,7 +77,6 @@ footer h3 {
 }
 
 footer p {
-  font-size: 16px;
   opacity: 0.7;
   line-height: 2;
 }
@@ -125,7 +124,6 @@ main h3 {
 }
 
 .why-grid p {
-  font-size: 16px;
   opacity: 0.7;
   line-height: 2;
 }
@@ -185,7 +183,6 @@ main h3 {
 }
 
 .card p {
-  font: 16px;
   margin: 10px 0 15px;
   line-height: 1.5;
 }
