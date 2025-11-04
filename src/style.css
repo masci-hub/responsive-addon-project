@@ -43,13 +43,13 @@ a:hover {
 
 .hero h1 {
   font-size: 96px;
-  margin: 30px 0;
+  margin: 30px;
 }
 
 .hero p {
   font-size: 40px;
   line-height: 1.5;
-  margin: 18px 0;
+  margin: 18px;
 }
 
 .hero a {
@@ -60,7 +60,7 @@ a:hover {
   letter-spacing: 3px;
   padding: 16px 32px;
   display: inline-block;
-  margin: 32px 0;
+  margin: 32px;
 }
 
 .hero a:hover {
@@ -243,82 +243,50 @@ footer a {
 }
 
 @media (max-width: 1024px) {
-  header {
+  .hero {
     padding: 80px 0;
   }
 
-  header h1 {
+  .hero h1 {
     font-size: 58px;
-    margin: 18px 0;
+    margin: 18px;
   }
 
-  header p {
+  .hero p {
     font-size: 24px;
-    margin: 12px 0;
+    margin: 12px;
   }
 
-  header a {
-    font-size: 8px;
+  .hero a {
+    font-size: 9px;
     margin: 16px;
     padding: 8px 16px;
+  }
+
+  section {
+    padding: 50px;
+  }
+
+  main h3 {
+    letter-spacing: 3px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  main h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .why-grid,
+  .places-grid,
+  .gallery-grid {
+    grid-template-columns: 1fr;
   }
 
   .footer-grid {
     grid-template-columns: 1fr;
     grid-gap: 10px;
     padding: 50px 90px;
-  }
-
-  .why-grid {
-    grid-template-columns: 1fr;
-    grid-gap: 40px;
-    padding: 50px 90px;
-  }
-
-  .why-grid h2 {
-    font-size: 28px;
-  }
-
-  .why-grid h3 {
-    letter-spacing: 3px;
-    font-size: 14px;
-  }
-
-  .places-section {
-    padding: 50px 90px;
-  }
-
-  .places-section h2 {
-    font-size: 28px;
-  }
-
-  .places-section h3 {
-    letter-spacing: 3px;
-    font-size: 14px;
-  }
-
-  .places-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .card-header {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery-section {
-    padding: 50px 90px;
-  }
-
-  .gallery-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .gallery-section h2 {
-    font-size: 28px;
-  }
-
-  .gallery-section h3 {
-    letter-spacing: 3px;
-    font-size: 14px;
   }
 }
