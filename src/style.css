@@ -47,7 +47,7 @@ a:hover {
 }
 
 .hero p {
-  font-size: 40px;
+  font-size: 48px;
   line-height: 1.5;
   margin: 18px;
 }
@@ -216,11 +216,12 @@ footer {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 20px;
-  padding: 100px 180px;
+  padding: 50px;
 }
 
 footer h3 {
   font-size: 20px;
+  margin: 0;
 }
 
 footer ul {
@@ -253,14 +254,14 @@ footer a {
   }
 
   .hero p {
-    font-size: 24px;
+    font-size: 29px;
     margin: 12px;
   }
 
   .hero a {
-    font-size: 9px;
+    font-size: 10px;
     margin: 16px;
-    padding: 8px 16px;
+    padding: 12px 24px;
   }
 
   section {
@@ -269,13 +270,16 @@ footer a {
 
   main h3 {
     letter-spacing: 3px;
-    font-size: 14px;
-    text-align: center;
+    font-size: 12px;
   }
 
   main h2 {
-    font-size: 28px;
-    text-align: center;
+    font-size: 36px;
+  }
+
+  .why-grid h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
   }
 
   .why-grid,
@@ -287,6 +291,6 @@ footer a {
   .footer-grid {
     grid-template-columns: 1fr;
     grid-gap: 10px;
-    padding: 50px 90px;
+    padding: 50px;
   }
 }
